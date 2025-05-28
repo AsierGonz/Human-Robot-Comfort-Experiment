@@ -12,6 +12,10 @@ by **Asier Gonzalez-Santocildes** (Universidad de Deusto)
 
 This project provides a complete experimental protocol to evaluate how different robot trajectories, generated via reinforcement learning, impact human comfort. Using a UR3e collaborative robot, synchronized sensors, and subjective questionnaires, this experiment quantifies physiological and psychological reactions to robot behavior.
 
+This repository **complements the Comfort-RL simulation platform**, available here:  
+🔗 [github.com/AsierGonz/Comfort-RL](https://github.com/AsierGonz/Comfort-RL)  
+> Use that repo to train agents; use this one to test their effects on real humans.
+
 ---
 
 ## 🧪 What Will Be Included
