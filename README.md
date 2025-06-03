@@ -3,7 +3,7 @@
 **Coming Soon — Resources for Reproducing the Experimental Study**
 
 This repository contains the materials, code, and documentation related to the study:  
-**"Adaptive Robot Motion Planning via Human Physiological Clustering and Comfort-Based Reinforcement Learning"**  
+**"Can Robots Adapt to Human Comfort? Experimental Validation of a Reinforcement Learning Approach"**  
 by **Asier Gonzalez-Santocildes** (Universidad de Deusto)
 
 ---
@@ -23,9 +23,9 @@ This repository **complements the Comfort-RL simulation platform**, available he
 ### 🔧 Experiment Infrastructure
 
 - `ros_launch/` — ROS launch files for UR3e robot trajectory execution  
-- `sensors/` — Scripts for synchronizing Polar Verity Sense heart-rate sensors and HD cameras  
-- `camera_calibration/` — Calibration tools and layout diagrams  
-- `data_logging/` — Modules to capture, timestamp, and log physiological, kinematic, and subjective data
+- `sensors/` — Aditional scripts for synchronizing sensors and HD cameras  
+- `camera_calibration/` — Layout diagrams  
+- `experiment_program/` — Console-based implementation of the experimental program, managing trajectory selection, timing, and velocity for each session. 
 
 ### 📊 Data & Analysis
 
@@ -36,6 +36,7 @@ This repository **complements the Comfort-RL simulation platform**, available he
   - Weighted Movement Index (WMI) computation
   - Distance-to-centroid classification
 - `questionnaires/` — Editable PDF and LaTeX versions of subjective rating forms
+- `trayectories/` — Spatial coordinates and visualizations of the robot trajectories used in the experiment
 
 ### 👤 Participant Flow
 
